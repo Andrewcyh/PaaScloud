@@ -17,7 +17,7 @@
 1. 如何描述DaemonSet特性和使用方式？
 2. 如何区分Job和CronJob？
 
-<img src=".\DaemonSet,Job与CronJob.assets\image-20201008145030594.png" alt="image-20201008145030594" style="zoom:80%;" />
+<img src="./DaemonSet,Job与CronJob.assets/image-20201008145030594.png" alt="image-20201008145030594" style="zoom:80%;" />
 
 - 描述DaemonSet特性和使用方式
 - 区分Job与CronJob
@@ -34,11 +34,11 @@
 
 ### kube-proxy的特殊性
 
-![image-20201008213039961](.\DaemonSet,Job与CronJob.assets\image-20201008213039961.png)
+![image-20201008213039961](./DaemonSet,Job与CronJob.assets/image-20201008213039961.png)
 
 ### DaemonSet的特性
 
-![image-20201008213110749](.\DaemonSet,Job与CronJob.assets\image-20201008213110749.png)
+![image-20201008213110749](./DaemonSet,Job与CronJob.assets/image-20201008213110749.png)
 
 ### DaemonSet创建实验
 
@@ -48,7 +48,7 @@
 
 ### 一次性任务场景
 
-![image-20201008234636519](.\DaemonSet,Job与CronJob.assets\image-20201008234636519.png)
+![image-20201008234636519](./DaemonSet,Job与CronJob.assets/image-20201008234636519.png)
 
 ### Job创建实验
 
@@ -60,7 +60,7 @@
 
 #### Schedule参数配置
 
-![image-20201009001048444](.\DaemonSet,Job与CronJob.assets\image-20201009001048444.png)
+![image-20201009001048444](./DaemonSet,Job与CronJob.assets/image-20201009001048444.png)
 
 ## 实训任务
 

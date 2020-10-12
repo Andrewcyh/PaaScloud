@@ -13,7 +13,7 @@
 1. 探针是如何检测健康状态的？
 2. 存活探针和就绪探针有什么区别？
 
-<img src=".\Pod健康检查.assets\image-20201009080044691.png" alt="image-20201009080044691" style="zoom:67%;" />
+<img src="./Pod健康检查.assets/image-20201009080044691.png" alt="image-20201009080044691" style="zoom:67%;" />
 
 - 掌握存活探针的概念和使用方式
 - 掌握就绪探针的概念和使用方式
@@ -32,25 +32,25 @@
 
 #### Pod状态
 
-![image-20201009080522804](.\Pod健康检查.assets\image-20201009080522804.png)
+![image-20201009080522804](./Pod健康检查.assets/image-20201009080522804.png)
 
 #### 更准确的判断Pod状态
 
-![image-20201009080639806](.\Pod健康检查.assets\image-20201009080639806.png)
+![image-20201009080639806](./Pod健康检查.assets/image-20201009080639806.png)
 
 #### 容器探针
 
-![image-20201009093717614](.\Pod健康检查.assets\image-20201009093717614.png)
+![image-20201009093717614](./Pod健康检查.assets/image-20201009093717614.png)
 
 #### 检查结果
 
-![image-20201009095119855](.\Pod健康检查.assets\image-20201009095119855.png)
+![image-20201009095119855](./Pod健康检查.assets/image-20201009095119855.png)
 
 ### 使用存活探针
 
 #### **ExecAction**
 
-![image-20201009100204657](.\Pod健康检查.assets\image-20201009100204657.png)
+![image-20201009100204657](./Pod健康检查.assets/image-20201009100204657.png)
 
 TCP类型存活探针和HTTP类型存活探针实验操作。
 
@@ -61,25 +61,25 @@ TCP类型存活探针和HTTP类型存活探针实验操作。
 
 #### HTTP
 
-![image-20201009102724538](.\Pod健康检查.assets\image-20201009102724538.png)
+![image-20201009102724538](./Pod健康检查.assets/image-20201009102724538.png)
 
 #### TCP
 
-![image-20201009103147716](.\Pod健康检查.assets\image-20201009103147716.png)
+![image-20201009103147716](./Pod健康检查.assets/image-20201009103147716.png)
 
 ### 使用就绪探针
 
 #### 就绪探针
 
-![image-20201009104352574](.\Pod健康检查.assets\image-20201009104352574.png)
+![image-20201009104352574](./Pod健康检查.assets/image-20201009104352574.png)
 
 #### 存活探针和就绪探针对比
 
-![image-20201009104609740](.\Pod健康检查.assets\image-20201009104609740.png)
+![image-20201009104609740](./Pod健康检查.assets/image-20201009104609740.png)
 
 #### ExecAction
 
-![image-20201009105123878](.\Pod健康检查.assets\image-20201009105123878.png)
+![image-20201009105123878](./Pod健康检查.assets/image-20201009105123878.png)
 
 
 
@@ -95,10 +95,10 @@ TCP类型存活探针和HTTP类型存活探针实验操作。
 
 步骤1
 
-<img src=".\Pod健康检查.assets\image-20201009111517442.png" alt="image-20201009111517442" style="zoom:80%;" />
+<img src="./Pod健康检查.assets/image-20201009111517442.png" alt="image-20201009111517442" style="zoom:80%;" />
 
-<img src=".\Pod健康检查.assets\image-20201009111537732.png" alt="image-20201009111537732" style="zoom:80%;" />
+<img src="./Pod健康检查.assets/image-20201009111537732.png" alt="image-20201009111537732" style="zoom:80%;" />
 
 步骤2
 
-<img src=".\Pod健康检查.assets\image-20201009112523217.png" alt="image-20201009112523217" style="zoom:80%;" />
+<img src="./Pod健康检查.assets/image-20201009112523217.png" alt="image-20201009112523217" style="zoom:80%;" />

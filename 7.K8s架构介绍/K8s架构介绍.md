@@ -15,7 +15,7 @@
 2. 如何查看master和node节点中有哪些组件？
 3. namespace的作用是什么？如何创建namespace？
 
-![image-20200928153101355](.\K8s架构介绍.assets\image-20200928153101355.png)
+![image-20200928153101355](./K8s架构介绍.assets/image-20200928153101355.png)
 
 主要介绍了Kubernetes的概念、架构、组件和namespace的概念和使用
 
@@ -31,11 +31,11 @@
 
 ### K8s是什么？
 
-![image-20200928154649601](.\K8s架构介绍.assets\image-20200928154649601.png)
+![image-20200928154649601](./K8s架构介绍.assets/image-20200928154649601.png)
 
 ### K8s架构
 
-![image-20200928154715207](.\K8s架构介绍.assets\image-20200928154715207.png)
+![image-20200928154715207](./K8s架构介绍.assets/image-20200928154715207.png)
 
 ### Master节点
 
@@ -68,7 +68,7 @@
 
 ### Kubeadm
 
-![image-20200928164643324](.\K8s架构介绍.assets\image-20200928164643324.png)
+![image-20200928164643324](./K8s架构介绍.assets/image-20200928164643324.png)
 
 ### 命名空间—namespace
 

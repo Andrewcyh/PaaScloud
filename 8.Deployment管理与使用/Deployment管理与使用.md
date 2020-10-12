@@ -18,7 +18,7 @@
 2. 如何创建和使用deployment？
 3. 如何使用kubectl命令行工具？
 
-![image-20200929103019917](.\Deployment管理与使用.assets\image-20200929103019917.png)
+![image-20200929103019917](./Deployment管理与使用.assets/image-20200929103019917.png)
 
 
 
@@ -53,15 +53,15 @@
   - 目前最常用的控制器就是Deployment，创建Deployment时也会自动创建ReplicaSet
   - Deployment可以管理一个或多个RS，并且通过RS来管理Pod
 
-![image-20200929140052463](.\Deployment管理与使用.assets\image-20200929140052463.png)
+![image-20200929140052463](./Deployment管理与使用.assets/image-20200929140052463.png)
 
 ### 命令行接口—Kubectl
 
-![image-20200929141234172](.\Deployment管理与使用.assets\image-20200929141234172.png)
+![image-20200929141234172](./Deployment管理与使用.assets/image-20200929141234172.png)
 
 #### Kubectl
 
-![image-20200929142253297](.\Deployment管理与使用.assets\image-20200929142253297.png)
+![image-20200929142253297](./Deployment管理与使用.assets/image-20200929142253297.png)
 
 ### Deployment创建使用实验
 
@@ -78,9 +78,9 @@
 
 - 容器对比虚拟机，最大的优势在于可以灵活的弹性伸缩，而这一部分工作由Kubernetes进行调度 
 
-![image-20201005173656409](.\Deployment管理与使用.assets\image-20201005173656409.png)
+![image-20201005173656409](./Deployment管理与使用.assets/image-20201005173656409.png)
 
-![image-20201005173716470](.\Deployment管理与使用.assets\image-20201005173716470.png)
+![image-20201005173716470](./Deployment管理与使用.assets/image-20201005173716470.png)
 
 ### Deployment弹性伸缩实验
 
@@ -96,7 +96,7 @@
 
 ##  Deployment升级
 
-![image-20201005181524071](.\Deployment管理与使用.assets\image-20201005181524071.png)
+![image-20201005181524071](./Deployment管理与使用.assets/image-20201005181524071.png)
 
 ### Deployment升级和回滚实验
 
@@ -124,24 +124,24 @@
 
 步骤一
 
-![image-20201005185614491](.\Deployment管理与使用.assets\image-20201005185614491.png)
+![image-20201005185614491](./Deployment管理与使用.assets/image-20201005185614491.png)
 
 步骤二 
 
-![image-20201005185716679](.\Deployment管理与使用.assets\image-20201005185716679.png)
+![image-20201005185716679](./Deployment管理与使用.assets/image-20201005185716679.png)
 
-![image-20201005185753121](.\Deployment管理与使用.assets\image-20201005185753121.png)
+![image-20201005185753121](./Deployment管理与使用.assets/image-20201005185753121.png)
 
 步骤三 
 
-![image-20201005185823838](.\Deployment管理与使用.assets\image-20201005185823838.png)
+![image-20201005185823838](./Deployment管理与使用.assets/image-20201005185823838.png)
 
 步骤四
 
-![image-20201005185901029](.\Deployment管理与使用.assets\image-20201005185901029.png)
+![image-20201005185901029](./Deployment管理与使用.assets/image-20201005185901029.png)
 
 步骤五
 
-![image-20201005190016557](.\Deployment管理与使用.assets\image-20201005190016557.png)
+![image-20201005190016557](./Deployment管理与使用.assets/image-20201005190016557.png)
 
-![image-20201005190033923](.\Deployment管理与使用.assets\image-20201005190033923.png)
+![image-20201005190033923](./Deployment管理与使用.assets/image-20201005190033923.png)

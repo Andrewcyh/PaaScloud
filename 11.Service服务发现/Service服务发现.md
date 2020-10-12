@@ -17,7 +17,7 @@
 2. 什么是core-dns
 3. 什么是headless服务
 
-<img src=".\Service服务发现.assets\image-20201007223728838.png" alt="image-20201007223728838" style="zoom:80%;" />
+<img src="./Service服务发现.assets/image-20201007223728838.png" alt="image-20201007223728838" style="zoom:80%;" />
 
 
 
@@ -41,31 +41,31 @@
 
 ##### Pod的特征
 
-![image-20201007232151422](.\Service服务发现.assets\image-20201007232151422.png)
+![image-20201007232151422](./Service服务发现.assets/image-20201007232151422.png)
 
 **一种解决方案**
 
-![image-20201007232501543](.\Service服务发现.assets\image-20201007232501543.png)
+![image-20201007232501543](./Service服务发现.assets/image-20201007232501543.png)
 
 ##### Service
 
-![image-20201007232538944](.\Service服务发现.assets\image-20201007232538944.png)
+![image-20201007232538944](./Service服务发现.assets/image-20201007232538944.png)
 
 ### 服务发现—Service模型
 
-![image-20201008000252741](.\Service服务发现.assets\image-20201008000252741.png)
+![image-20201008000252741](./Service服务发现.assets/image-20201008000252741.png)
 
 #### Endpoint Controller
 
-![image-20201008001707104](.\Service服务发现.assets\image-20201008001707104.png)
+![image-20201008001707104](./Service服务发现.assets/image-20201008001707104.png)
 
 #### Kube-proxy iptables
 
-![image-20201008001902744](.\Service服务发现.assets\image-20201008001902744.png)
+![image-20201008001902744](./Service服务发现.assets/image-20201008001902744.png)
 
 ####  Kube-proxy IPVS
 
-![image-20201008002245477](.\Service服务发现.assets\image-20201008002245477.png)
+![image-20201008002245477](./Service服务发现.assets/image-20201008002245477.png)
 
 ### Service创建实验
 
@@ -82,13 +82,13 @@
 
 #### CoreDNS
 
-![image-20201008091302156](.\Service服务发现.assets\image-20201008091302156.png)
+![image-20201008091302156](./Service服务发现.assets/image-20201008091302156.png)
 
 ### Headless Service
 
-![image-20201008101640637](.\Service服务发现.assets\image-20201008101640637.png)
+![image-20201008101640637](./Service服务发现.assets/image-20201008101640637.png)
 
-![image-20201008103359586](.\Service服务发现.assets\image-20201008103359586.png)
+![image-20201008103359586](./Service服务发现.assets/image-20201008103359586.png)
 
 ## 实训任务
 
@@ -108,23 +108,23 @@
 
 步骤1
 
-<img src=".\Service服务发现.assets\image-20201008104859666.png" alt="image-20201008104859666" style="zoom:80%;" />
+<img src="./Service服务发现.assets/image-20201008104859666.png" alt="image-20201008104859666" style="zoom:80%;" />
 
 步骤2
 
-<img src=".\Service服务发现.assets\image-20201008110424653.png" alt="image-20201008110424653" style="zoom:80%;" />
+<img src="./Service服务发现.assets/image-20201008110424653.png" alt="image-20201008110424653" style="zoom:80%;" />
 
 步骤3
 
-<img src=".\Service服务发现.assets\image-20201008135951748.png" alt="image-20201008135951748" style="zoom: 67%;" />
+<img src="./Service服务发现.assets/image-20201008135951748.png" alt="image-20201008135951748" style="zoom: 67%;" />
 
 步骤4
 
-<img src=".\Service服务发现.assets\image-20201008144224578.png" alt="image-20201008144224578" style="zoom:67%;" />
+<img src="./Service服务发现.assets/image-20201008144224578.png" alt="image-20201008144224578" style="zoom:67%;" />
 
 步骤5
 
-<img src=".\Service服务发现.assets\image-20201008144457394.png" alt="image-20201008144457394" style="zoom:67%;" />
+<img src="./Service服务发现.assets/image-20201008144457394.png" alt="image-20201008144457394" style="zoom:67%;" />
 
 步骤6
 

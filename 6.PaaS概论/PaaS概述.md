@@ -14,7 +14,7 @@
 2. 什么是容器技术？
 3. 容器的基础操作有哪些？
 
-![image-20200928095834541](.\PaaS概述.assets\image-20200928095834541.png)
+![image-20200928095834541](./PaaS概述.assets/image-20200928095834541.png)
 
 主要讲述PaaS层的作用，在云IT架构中的层级，介绍了企业传统IT架构的弊端、带来的业务挑战（包括硬件资源利用率低，难以共享，无法满足业务快速开发和部署等需求），基于这些问题企业进行云化数字转型需要引入PaaS平台。最后介绍了业界内主流的PaaS平台以及它们的架构
 
@@ -33,13 +33,13 @@
 
 ### 云服务
 
-![image-20200928102559072](.\PaaS概述.assets\image-20200928102559072.png)
+![image-20200928102559072](./PaaS概述.assets/image-20200928102559072.png)
 
 ### 什么是PaaS
 
-![image-20200928104402926](.\PaaS概述.assets\image-20200928104402926.png)
+![image-20200928104402926](./PaaS概述.assets/image-20200928104402926.png)
 
-![image-20200928105222415](.\PaaS概述.assets\image-20200928105222415.png)
+![image-20200928105222415](./PaaS概述.assets/image-20200928105222415.png)
 
 ## 企业IT云化转型挑战及趋势
 
@@ -52,25 +52,25 @@
 
 ### 企业IT云化的演进和诉求
 
-![image-20200928112011021](.\PaaS概述.assets\image-20200928112011021.png)
+![image-20200928112011021](./PaaS概述.assets/image-20200928112011021.png)
 
 ### 企业IT云化转型挑战
 
-![image-20200928114544134](.\PaaS概述.assets\image-20200928114544134.png)
+![image-20200928114544134](./PaaS概述.assets/image-20200928114544134.png)
 
-![image-20200928114745173](.\PaaS概述.assets\image-20200928114745173.png)
+![image-20200928114745173](./PaaS概述.assets/image-20200928114745173.png)
 
-![image-20200928114807047](.\PaaS概述.assets\image-20200928114807047.png)
+![image-20200928114807047](./PaaS概述.assets/image-20200928114807047.png)
 
 ### 企业IT云化转型趋势
 
-![image-20200928114848079](.\PaaS概述.assets\image-20200928114848079.png)
+![image-20200928114848079](./PaaS概述.assets/image-20200928114848079.png)
 
-![image-20200928115041348](.\PaaS概述.assets\image-20200928115041348.png)
+![image-20200928115041348](./PaaS概述.assets/image-20200928115041348.png)
 
-![image-20200928115618168](.\PaaS概述.assets\image-20200928115618168.png)
+![image-20200928115618168](./PaaS概述.assets/image-20200928115618168.png)
 
-![image-20200928115958362](.\PaaS概述.assets\image-20200928115958362.png)
+![image-20200928115958362](./PaaS概述.assets/image-20200928115958362.png)
 
 ## PaaS与编排工具概述
 
@@ -83,53 +83,53 @@
 
 ### 容器集群管理三巨头
 
-![image-20200928134249220](.\PaaS概述.assets\image-20200928134249220.png)
+![image-20200928134249220](./PaaS概述.assets/image-20200928134249220.png)
 
 ### Docker Swarm/SwarmKit
 
-![image-20200928135337750](.\PaaS概述.assets\image-20200928135337750.png)
+![image-20200928135337750](./PaaS概述.assets/image-20200928135337750.png)
 
 #### Swarm Mode架构
 
-![image-20200928135422186](.\PaaS概述.assets\image-20200928135422186.png)
+![image-20200928135422186](./PaaS概述.assets/image-20200928135422186.png)
 
-![image-20200928135530725](.\PaaS概述.assets\image-20200928135530725.png)
+![image-20200928135530725](./PaaS概述.assets/image-20200928135530725.png)
 
 ### Apache Mesos：优秀的集群资源调度平台
 
-![image-20200928135655173](.\PaaS概述.assets\image-20200928135655173.png)
+![image-20200928135655173](./PaaS概述.assets/image-20200928135655173.png)
 
 #### Mesos的双层调度机制
 
-![image-20200928135755777](.\PaaS概述.assets\image-20200928135755777.png)
+![image-20200928135755777](./PaaS概述.assets/image-20200928135755777.png)
 
 ### Kubernetes：优秀的容器编排平台
 
-![image-20200928140246777](.\PaaS概述.assets\image-20200928140246777.png)
+![image-20200928140246777](./PaaS概述.assets/image-20200928140246777.png)
 
 #### K8s架构
 
-![image-20200928140436847](.\PaaS概述.assets\image-20200928140436847.png)
+![image-20200928140436847](./PaaS概述.assets/image-20200928140436847.png)
 
 #### K8s的"声明式API"
 
-![image-20200928142425388](.\PaaS概述.assets\image-20200928142425388.png)
+![image-20200928142425388](./PaaS概述.assets/image-20200928142425388.png)
 
 ### 什么是Fusionstage
 
-![image-20200928143251667](.\PaaS概述.assets\image-20200928143251667.png)
+![image-20200928143251667](./PaaS概述.assets/image-20200928143251667.png)
 
 #### 华为FusionStage设计理念
 
-![image-20200928144011662](.\PaaS概述.assets\image-20200928144011662.png)
+![image-20200928144011662](./PaaS概述.assets/image-20200928144011662.png)
 
 #### FusionStage系统架构
 
-![image-20200928144202079](.\PaaS概述.assets\image-20200928144202079.png)
+![image-20200928144202079](./PaaS概述.assets/image-20200928144202079.png)
 
 **应用生命周期管理，一键式应用上线**
 
-![image-20200928144407786](.\PaaS概述.assets\image-20200928144407786.png)
+![image-20200928144407786](./PaaS概述.assets/image-20200928144407786.png)
 
 ## 思考题
 

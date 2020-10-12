@@ -15,7 +15,7 @@
 1. 不同业务类型的容器网络访问对于Kubernetes网络会有哪些要求？
 2. Kubernetes平台通过什么模型来管理网络？
 
-![image-20201009113352069](.\Kubernetes网络.assets\image-20201009113352069.png)
+![image-20201009113352069](./Kubernetes网络.assets/image-20201009113352069.png)
 
 - 描述Kubernetes网络模型及实现方式
 - 区别主流CNI插件及相关技术
@@ -32,53 +32,53 @@
 
 ### Kubernetes的网络模型设计目标
 
-<img src=".\Kubernetes网络.assets\image-20201009114039533.png" alt="image-20201009114039533" style="zoom:80%;" />
+<img src="./Kubernetes网络.assets/image-20201009114039533.png" alt="image-20201009114039533" style="zoom:80%;" />
 
 #### 容器间通信
 
-![image-20201009114127990](.\Kubernetes网络.assets\image-20201009114127990.png)
+![image-20201009114127990](./Kubernetes网络.assets/image-20201009114127990.png)
 
 #### Pod间通信
 
-![image-20201009114230079](.\Kubernetes网络.assets\image-20201009114230079.png)
+![image-20201009114230079](./Kubernetes网络.assets/image-20201009114230079.png)
 
 ##### Pod间通信示意图
 
-![image-20201009115133720](.\Kubernetes网络.assets\image-20201009115133720.png)
+![image-20201009115133720](./Kubernetes网络.assets/image-20201009115133720.png)
 
 #### Service与Pod间的通信
 
-<img src=".\Kubernetes网络.assets\image-20201009115449214.png" alt="image-20201009115449214"  />
+<img src="./Kubernetes网络.assets/image-20201009115449214.png" alt="image-20201009115449214"  />
 
 #### 集群外部访问
 
-![image-20201009115804324](.\Kubernetes网络.assets\image-20201009115804324.png)
+![image-20201009115804324](./Kubernetes网络.assets/image-20201009115804324.png)
 
 ## Pod网络实现方式
 
-![image-20201009134748704](.\Kubernetes网络.assets\image-20201009134748704.png)
+![image-20201009134748704](./Kubernetes网络.assets/image-20201009134748704.png)
 
 ### 虚拟网络接口的实现方式
 
-![image-20201009134825685](.\Kubernetes网络.assets\image-20201009134825685.png)
+![image-20201009134825685](./Kubernetes网络.assets/image-20201009134825685.png)
 
 ### 虚拟网络接口实现原理
 
-![image-20201009134914090](.\Kubernetes网络.assets\image-20201009134914090.png)
+![image-20201009134914090](./Kubernetes网络.assets/image-20201009134914090.png)
 
 ## CNI插件及常见的实现
 
 ### 容器网络模型规范CNI
 
-![image-20201009135051685](.\Kubernetes网络.assets\image-20201009135051685.png)
+![image-20201009135051685](./Kubernetes网络.assets/image-20201009135051685.png)
 
 ### CNI Drivers
 
-![image-20201009135140724](.\Kubernetes网络.assets\image-20201009135140724.png)
+![image-20201009135140724](./Kubernetes网络.assets/image-20201009135140724.png)
 
 ### 主流CNI插件项目
 
-![image-20201009135240919](.\Kubernetes网络.assets\image-20201009135240919.png)
+![image-20201009135240919](./Kubernetes网络.assets/image-20201009135240919.png)
 
 ## Flannel网络插件
 
@@ -92,11 +92,11 @@
 
 ### Flannel网络插件
 
-![image-20201009140059565](.\Kubernetes网络.assets\image-20201009140059565.png)
+![image-20201009140059565](./Kubernetes网络.assets/image-20201009140059565.png)
 
 ### Flannel三种网络模型
 
-![image-20201009140330332](.\Kubernetes网络.assets\image-20201009140330332.png)
+![image-20201009140330332](./Kubernetes网络.assets/image-20201009140330332.png)
 
 host-gw的缺点：各个node必须要在同一个网段中
 
@@ -104,35 +104,35 @@ host-gw的优点：不需要像VXLAN一样进行报文封装
 
 ### 部署Flannel
 
-![image-20201009141554070](.\Kubernetes网络.assets\image-20201009141554070.png)
+![image-20201009141554070](./Kubernetes网络.assets/image-20201009141554070.png)
 
 ### 测试Pod连通性
 
-![image-20201009141703256](.\Kubernetes网络.assets\image-20201009141703256.png)
+![image-20201009141703256](./Kubernetes网络.assets/image-20201009141703256.png)
 
 ### 查看Flannel参数
 
-![image-20201009142636236](.\Kubernetes网络.assets\image-20201009142636236.png)
+![image-20201009142636236](./Kubernetes网络.assets/image-20201009142636236.png)
 
 ### VXLAN
 
-![image-20201009142727846](.\Kubernetes网络.assets\image-20201009142727846.png)
+![image-20201009142727846](./Kubernetes网络.assets/image-20201009142727846.png)
 
 ### VXLAN后端和direct routing
 
-<img src=".\Kubernetes网络.assets\image-20201009142829244.png" alt="image-20201009142829244"  />
+<img src="./Kubernetes网络.assets/image-20201009142829244.png" alt="image-20201009142829244"  />
 
 ### 启用direct routing
 
-![image-20201009143112737](.\Kubernetes网络.assets\image-20201009143112737.png)
+![image-20201009143112737](./Kubernetes网络.assets/image-20201009143112737.png)
 
 ### 使配置生效
 
-![image-20201009143206017](.\Kubernetes网络.assets\image-20201009143206017.png)
+![image-20201009143206017](./Kubernetes网络.assets/image-20201009143206017.png)
 
 ### 网络策略
 
-![image-20201009143324113](.\Kubernetes网络.assets\image-20201009143324113.png)
+![image-20201009143324113](./Kubernetes网络.assets/image-20201009143324113.png)
 
 ## Kubernetes网络实验演示
 

@@ -14,7 +14,7 @@
 1. 如何使用标签标注Kubernetes对象？
 2. 如何使用标签选择器筛选kubernetes对象？
 
-![image-20201006200645971](.\Label与Label Selector.assets\image-20201006200645971.png)
+![image-20201006200645971](./Label与Label Selector.assets/image-20201006200645971.png)
 
 - 使用标签标注Kubernetes对象
 - 使用标签选择器筛选Kubernetes对象
@@ -32,45 +32,45 @@
 
 ### Label
 
-![image-20201006202740569](.\Label与Label Selector.assets\image-20201006202740569.png)
+![image-20201006202740569](./Label与Label Selector.assets/image-20201006202740569.png)
 
 ### 动机
 
-![image-20201006202955295](.\Label与Label Selector.assets\image-20201006202955295.png)
+![image-20201006202955295](./Label与Label Selector.assets/image-20201006202955295.png)
 
 ### 标签的语法
 
-![image-20201006210016990](.\Label与Label Selector.assets\image-20201006210016990.png)
+![image-20201006210016990](./Label与Label Selector.assets/image-20201006210016990.png)
 
 ###  Label实验
 
-![image-20201007202158588](.\Label与Label Selector.assets\image-20201007202158588.png)
+![image-20201007202158588](./Label与Label Selector.assets/image-20201007202158588.png)
 
-![image-20201007202320767](.\Label与Label Selector.assets\image-20201007202320767.png)
+![image-20201007202320767](./Label与Label Selector.assets/image-20201007202320767.png)
 
-![image-20201007202402728](.\Label与Label Selector.assets\image-20201007202402728.png)
+![image-20201007202402728](./Label与Label Selector.assets/image-20201007202402728.png)
 
 ### 标签选择器Labels Selector
 
-![image-20201007202507229](.\Label与Label Selector.assets\image-20201007202507229.png)
+![image-20201007202507229](./Label与Label Selector.assets/image-20201007202507229.png)
 
 #### 基于等值的标签选择器
 
-![image-20201007202637180](.\Label与Label Selector.assets\image-20201007202637180.png)
+![image-20201007202637180](./Label与Label Selector.assets/image-20201007202637180.png)
 
 `-L`指的是显示键的值
 
-![image-20201007202953130](.\Label与Label Selector.assets\image-20201007202953130.png)
+![image-20201007202953130](./Label与Label Selector.assets/image-20201007202953130.png)
 
-![image-20201007203315703](.\Label与Label Selector.assets\image-20201007203315703.png)
+![image-20201007203315703](./Label与Label Selector.assets/image-20201007203315703.png)
 
-![image-20201007205233315](.\Label与Label Selector.assets\image-20201007205233315.png)
+![image-20201007205233315](./Label与Label Selector.assets/image-20201007205233315.png)
 
 #### 基于集合的标签选择器
 
-![image-20201007205308601](.\Label与Label Selector.assets\image-20201007205308601.png)
+![image-20201007205308601](./Label与Label Selector.assets/image-20201007205308601.png)
 
 ##### 实验
 
-![image-20201007205923956](.\Label与Label Selector.assets\image-20201007205923956.png)
+![image-20201007205923956](./Label与Label Selector.assets/image-20201007205923956.png)
 

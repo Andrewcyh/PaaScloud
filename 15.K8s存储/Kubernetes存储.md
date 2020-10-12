@@ -18,7 +18,7 @@
 2. 如何实现Pod之间数据的共享？
 3. 如何让主机的数据传递给Pod？
 
-![image-20201009152648445](.\Kubernetes存储.assets\image-20201009152648445.png)
+![image-20201009152648445](./Kubernetes存储.assets/image-20201009152648445.png)
 
 - 区分不同volume使用方式
 - 使用emptyDir
@@ -27,11 +27,11 @@
 
 ## Volume
 
-![image-20201009153133654](.\Kubernetes存储.assets\image-20201009153133654.png)
+![image-20201009153133654](./Kubernetes存储.assets/image-20201009153133654.png)
 
 ### Volume类型
 
-![image-20201009154126009](.\Kubernetes存储.assets\image-20201009154126009.png)
+![image-20201009154126009](./Kubernetes存储.assets/image-20201009154126009.png)
 
 
 
@@ -49,7 +49,7 @@
 
 ### EmptyDir
 
-![image-20201009154227278](.\Kubernetes存储.assets\image-20201009154227278.png)
+![image-20201009154227278](./Kubernetes存储.assets/image-20201009154227278.png)
 
 
 
@@ -64,11 +64,11 @@
 
 详见HostPath实验手册
 
-![image-20201009164117645](.\Kubernetes存储.assets\image-20201009164117645.png)
+![image-20201009164117645](./Kubernetes存储.assets/image-20201009164117645.png)
 
 ### HostPath的类型
 
-![image-20201009164412509](.\Kubernetes存储.assets\image-20201009164412509.png)
+![image-20201009164412509](./Kubernetes存储.assets/image-20201009164412509.png)
 
 ## PV和PVC
 
@@ -82,19 +82,19 @@
 
 ### PV和PVC概述
 
-![image-20201009170053110](.\Kubernetes存储.assets\image-20201009170053110.png)
+![image-20201009170053110](./Kubernetes存储.assets/image-20201009170053110.png)
 
 ### 创建PV
 
-![image-20201009172501086](.\Kubernetes存储.assets\image-20201009172501086.png)
+![image-20201009172501086](./Kubernetes存储.assets/image-20201009172501086.png)
 
-![image-20201009172638480](.\Kubernetes存储.assets\image-20201009172638480.png)
+![image-20201009172638480](./Kubernetes存储.assets/image-20201009172638480.png)
 
 ### 创建PVC
 
 ### 动态卷供给
 
-![image-20201009175149910](.\Kubernetes存储.assets\image-20201009175149910.png)
+![image-20201009175149910](./Kubernetes存储.assets/image-20201009175149910.png)
 
 ## 实训任务
 
@@ -116,7 +116,7 @@
 
 步骤1
 
-<img src=".\Kubernetes存储.assets\image-20201009175759581.png" alt="image-20201009175759581" style="zoom:80%;" />
+<img src="./Kubernetes存储.assets/image-20201009175759581.png" alt="image-20201009175759581" style="zoom:80%;" />
 
-<img src=".\Kubernetes存储.assets\image-20201009175826322.png" alt="image-20201009175826322" style="zoom:80%;" />
+<img src="./Kubernetes存储.assets/image-20201009175826322.png" alt="image-20201009175826322" style="zoom:80%;" />
 
